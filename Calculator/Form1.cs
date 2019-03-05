@@ -30,7 +30,7 @@ namespace Calculator
             if (o1.Text == "")
             {
                 o1.Text = "1";
-                subject.Text = "Subject: Cherry";
+                subject.Text = "Subject: Orange";
 
                 for (int i = 0; i < 1; i++)
                 {
@@ -62,7 +62,7 @@ namespace Calculator
             if (o1.Text == "")
             {
                 o1.Text = "2";
-                subject.Text = "Subject: Cabbage";
+                subject.Text = "Subject: Orange";
 
                 for (int i = 0; i < 2; i++)
                 {
@@ -72,7 +72,7 @@ namespace Calculator
                         Size = new Size(8, 8),
                         Location = new Point(14 + 25, 215 + 14 * (i * 2)),
                         Visible = true,
-                        Image = (Image)(new Bitmap(Image.FromFile("2.png"), new Size(8, 8))),
+                        Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                     };
                     panel1.Controls.Add(fruits);
                     panel1.BorderStyle = BorderStyle.FixedSingle;
@@ -94,7 +94,7 @@ namespace Calculator
             if (o1.Text == "")
             {
                 o1.Text = "3";
-                subject.Text = "Subject: Coconut";
+                subject.Text = "Subject: Orange";
 
                 for (int i = 0; i < 3; i++)
                 {
@@ -104,7 +104,7 @@ namespace Calculator
                         Size = new Size(8, 8),
                         Location = new Point((14 + 25), 215 + i * 14),
                         Visible = true,
-                        Image = (Image)(new Bitmap(Image.FromFile("3.png"), new Size(8, 8))),
+                        Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
 
                     };
                     panel1.Controls.Add(fruits);
@@ -127,7 +127,7 @@ namespace Calculator
             if (o1.Text == "")
             {
                 o1.Text = "4";
-                subject.Text = "Subject: Pinapple";
+                subject.Text = "Subject: Orange";
 
                 for (int i = 0; i < 4; i++)
                 {
@@ -137,7 +137,7 @@ namespace Calculator
                         Size = new Size(8, 8),
                         Location = new Point((28 * (i % 2)) + 25, 215 + (int)(i / 2) * 28),
                         Visible = true,
-                        Image = (Image)(new Bitmap(Image.FromFile("4.png"), new Size(8, 8))),
+                        Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                     };
                     panel1.Controls.Add(fruits);
                     panel1.BorderStyle = BorderStyle.FixedSingle;
@@ -172,7 +172,7 @@ namespace Calculator
                             Size = new Size(8, 8),
                             Location = new Point(39,229),
                             Visible = true,
-                            Image = (Image)(new Bitmap(Image.FromFile("5.png"), new Size(8, 8))),
+                            Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                         };
                     }
                     else
@@ -183,7 +183,7 @@ namespace Calculator
                             Size = new Size(8, 8),
                             Location = new Point((28 * (i % 2)) + 25, 215 + (int)(i / 2) * 28),
                             Visible = true,
-                            Image = (Image)(new Bitmap(Image.FromFile("5.png"), new Size(8, 8))),
+                            Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                         };
                     }
                     panel1.Controls.Add(fruits);
@@ -206,7 +206,7 @@ namespace Calculator
             if (o1.Text == "")
             {
                 o1.Text = "6";
-                subject.Text = "Subject: Peach";
+                subject.Text = "Subject: Orange";
 
                 for (int i = 0; i < 6; i++)
                 {
@@ -216,7 +216,7 @@ namespace Calculator
                         Size = new Size(8, 8),
                         Location = new Point((28 * (i % 2)) + 25, 215 + (int)(i / 2) * 14),
                         Visible = true,
-                        Image = (Image)(new Bitmap(Image.FromFile("6.png"), new Size(8, 8))),
+                        Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                     };
                     panel1.Controls.Add(fruits);
                     panel1.BorderStyle = BorderStyle.FixedSingle;
@@ -237,7 +237,7 @@ namespace Calculator
             if (o1.Text == "")
             {
                 o1.Text = "7";
-                subject.Text = "Subject: Pumpkin";
+                subject.Text = "Subject: Orange";
 
                 for (int i = 0; i < 7; i++)
                 {
@@ -250,7 +250,7 @@ namespace Calculator
                             Size = new Size(8, 8),
                             Location = new Point(39,222),
                             Visible = true,
-                            Image = (Image)(new Bitmap(Image.FromFile("7.png"), new Size(8, 8))),
+                            Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                         };
                     }
                     else
@@ -261,7 +261,7 @@ namespace Calculator
                             Size = new Size(8, 8),
                             Location = new Point((28 * (i % 2)) + 25, 215 + (int)(i / 2) * 14),
                             Visible = true,
-                            Image = (Image)(new Bitmap(Image.FromFile("7.png"), new Size(8, 8))),
+                            Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                         };
                     }
                     panel1.Controls.Add(fruits);
@@ -284,7 +284,7 @@ namespace Calculator
             if (o1.Text == "")
             {
                 o1.Text = "8";
-                subject.Text = "Subject: Raspberry";
+                subject.Text = "Subject: Orange";
 
                 for (int i = 0; i < 8; i++)
                 {
@@ -297,7 +297,7 @@ namespace Calculator
                             Size = new Size(8, 8),
                             Location = new Point(39, 222),
                             Visible = true,
-                            Image = (Image)(new Bitmap(Image.FromFile("8.png"), new Size(8, 8))),
+                            Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                         };
                     }
                     else if (i == 7)
@@ -308,7 +308,7 @@ namespace Calculator
                             Size = new Size(8, 8),
                             Location = new Point(39,235),
                             Visible = true,
-                            Image = (Image)(new Bitmap(Image.FromFile("8.png"), new Size(8, 8))),
+                            Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                         };
                     }
                     else
@@ -319,7 +319,7 @@ namespace Calculator
                             Size = new Size(8, 8),
                             Location = new Point((28 * (i % 2)) + 25, 215 + (int)(i / 2) * 14),
                             Visible = true,
-                            Image = (Image)(new Bitmap(Image.FromFile("8.png"), new Size(8, 8))),
+                            Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                         };
                     }
                     panel1.Controls.Add(fruits);
@@ -342,7 +342,7 @@ namespace Calculator
             if (o1.Text == "")
             {
                 o1.Text = "9";
-                subject.Text = "Subject: Tomato";
+                subject.Text = "Subject: Orange";
 
                 for (int i = 0; i < 9; i++)
                 {
@@ -355,7 +355,7 @@ namespace Calculator
                             Size = new Size(8, 8),
                             Location = new Point(39, 229),
                             Visible = true,
-                            Image = (Image)(new Bitmap(Image.FromFile("9.png"), new Size(8, 8))),
+                            Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                         };
                     }
                     else
@@ -366,7 +366,7 @@ namespace Calculator
                             Size = new Size(8, 8),
                             Location = new Point((28 * (i % 2)) + 25, 215 + (int)(i / 2) * 10),
                             Visible = true,
-                            Image = (Image)(new Bitmap(Image.FromFile("9.png"), new Size(8, 8))),
+                            Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                         };
                     }
                     panel1.Controls.Add(fruits);
@@ -389,7 +389,7 @@ namespace Calculator
             if (o1.Text == "")
             {
                 o1.Text = "0";
-                subject.Text = "Subject: Strawberry";
+                subject.Text = "Subject: Orange";
 
             }
             else
@@ -447,16 +447,16 @@ namespace Calculator
 
         public void Form1_Load(object sender, EventArgs e)
         {
-            pictureBox0.Image = (Image)(new Bitmap(Image.FromFile("0.png"), new Size(32, 32)));
+            pictureBox0.Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(32, 32)));
             pictureBox1.Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(32, 32)));
-            pictureBox2.Image = (Image)(new Bitmap(Image.FromFile("2.png"), new Size(32, 32)));
-            pictureBox3.Image = (Image)(new Bitmap(Image.FromFile("3.png"), new Size(32, 32)));
-            pictureBox4.Image = (Image)(new Bitmap(Image.FromFile("4.png"), new Size(32, 32)));
-            pictureBox5.Image = (Image)(new Bitmap(Image.FromFile("5.png"), new Size(32, 32)));
-            pictureBox6.Image = (Image)(new Bitmap(Image.FromFile("6.png"), new Size(32, 32)));
-            pictureBox7.Image = (Image)(new Bitmap(Image.FromFile("7.png"), new Size(32, 32)));
-            pictureBox8.Image = (Image)(new Bitmap(Image.FromFile("8.png"), new Size(32, 32)));
-            pictureBox9.Image = (Image)(new Bitmap(Image.FromFile("9.png"), new Size(32, 32)));
+            pictureBox2.Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(32, 32)));
+            pictureBox3.Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(32, 32)));
+            pictureBox4.Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(32, 32)));
+            pictureBox5.Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(32, 32)));
+            pictureBox6.Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(32, 32)));
+            pictureBox7.Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(32, 32)));
+            pictureBox8.Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(32, 32)));
+            pictureBox9.Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(32, 32)));
 
             n1.Font = new Font(n1.Font, FontStyle.Bold);
             n2.Font = new Font(n2.Font, FontStyle.Bold);
@@ -499,7 +499,7 @@ namespace Calculator
                                 Size = new Size(8, 8),
                                 Location = new Point(14 + 25 + (j * 47), 215 + 14),
                                 Visible = true,
-                                Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                             };
                             panel1.Controls.Add(fruits);
                             this.Controls.Add(fruits);
@@ -512,7 +512,7 @@ namespace Calculator
                                 Size = new Size(8, 8),
                                 Location = new Point(14 + 25 + (j * 47), 215 + 14 * (i*2)),
                                 Visible = true,
-                                Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                             };
                             panel1.Controls.Add(fruits);
                             this.Controls.Add(fruits);
@@ -525,7 +525,7 @@ namespace Calculator
                                 Size = new Size(8, 8),
                                 Location = new Point(14 + 25 + (j * 47), 215 + 14 * i),
                                 Visible = true,
-                                Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                             };
                             panel1.Controls.Add(fruits);
                             this.Controls.Add(fruits);
@@ -538,7 +538,7 @@ namespace Calculator
                                 Size = new Size(8, 8),
                                 Location = new Point((28 * (i % 2)) + 25 + (j * 47), 215 + (int)(i / 2) * 28),
                                 Visible = true,
-                                Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                             };
                             panel1.Controls.Add(fruits);
                             this.Controls.Add(fruits);
@@ -553,7 +553,7 @@ namespace Calculator
                                     Size = new Size(8, 8),
                                     Location = new Point(39 + (j * 47), 229),
                                     Visible = true,
-                                    Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                    Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                                 };
                             }
                             else
@@ -564,7 +564,7 @@ namespace Calculator
                                     Size = new Size(8, 8),
                                     Location = new Point((28 * (i % 2)) + 25 + (j * 47), 215 + (int)(i / 2) * 28),
                                     Visible = true,
-                                    Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                    Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                                 };
                             }
                             panel1.Controls.Add(fruits);
@@ -578,7 +578,7 @@ namespace Calculator
                                 Size = new Size(8, 8),
                                 Location = new Point((28 * (i % 2)) + 25 + (j * 47), 215 + (int)(i / 2) * 14),
                                 Visible = true,
-                                Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                             };
                             panel1.Controls.Add(fruits);
                             this.Controls.Add(fruits);
@@ -593,7 +593,7 @@ namespace Calculator
                                     Size = new Size(8, 8),
                                     Location = new Point(39 + (j * 47), 222),
                                     Visible = true,
-                                    Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                    Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                                 };
                             }
                             else
@@ -604,7 +604,7 @@ namespace Calculator
                                     Size = new Size(8, 8),
                                     Location = new Point((28 * (i % 2)) + 25 + (j * 47), 215 + (int)(i / 2) * 14),
                                     Visible = true,
-                                    Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                    Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                                 };
                             }
                             panel1.Controls.Add(fruits);
@@ -620,7 +620,7 @@ namespace Calculator
                                     Size = new Size(8, 8),
                                     Location = new Point(39 + (j * 47), 222),
                                     Visible = true,
-                                    Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                    Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                                 };
                             }
                             else if (i == 7)
@@ -631,7 +631,7 @@ namespace Calculator
                                     Size = new Size(8, 8),
                                     Location = new Point(39 + (j * 47), 235),
                                     Visible = true,
-                                    Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                    Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                                 };
                             }
                             else
@@ -642,7 +642,7 @@ namespace Calculator
                                     Size = new Size(8, 8),
                                     Location = new Point((28 * (i % 2)) + 25 + (j * 47), 215 + (int)(i / 2) * 14),
                                     Visible = true,
-                                    Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                    Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                                 };
                             }
                             panel1.Controls.Add(fruits);
@@ -658,7 +658,7 @@ namespace Calculator
                                     Size = new Size(8, 8),
                                     Location = new Point(39 + (j * 47), 229),
                                     Visible = true,
-                                    Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                    Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                                 };
                             }
                             else
@@ -669,7 +669,7 @@ namespace Calculator
                                     Size = new Size(8, 8),
                                     Location = new Point((28 * (i % 2)) + 25 + (j * 47), 215 + (int)(i / 2) * 10),
                                     Visible = true,
-                                    Image = (Image)(new Bitmap(Image.FromFile(Int32.Parse(o1.Text) + ".png"), new Size(8, 8))),
+                                    Image = (Image)(new Bitmap(Image.FromFile("1.png"), new Size(8, 8))),
                                 };
                             }
                             panel1.Controls.Add(fruits);
